@@ -1,4 +1,6 @@
 bestfit <-function(x,y){
+	# x: independent variable
+	# y: dependent variable	
 	xbar = mean(x)
 	ybar = mean(y)
 	xdif = x-xbar
